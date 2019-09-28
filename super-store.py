@@ -3,7 +3,7 @@ import pandas as pd
 df = pd.read_csv(
     'C:\\Users\\Avinash\\Desktop\\DCult\\excersise\\Super_store_purchase.csv')
 
-#    Who are the frequent male/female customer (city wise)?
+#    Who are the frequent male/female customer (city wise)?7
 df = df.fillna(0)
 df['Total'] = df['Product_Category_1'] + \
     df['Product_Category_2'] + df['Product_Category_3']
